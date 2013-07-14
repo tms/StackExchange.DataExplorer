@@ -93,6 +93,13 @@ namespace StackExchange.DataExplorer
                         }
                     },
                     {
+                        "editor", new AssetCollection
+                        {
+                            "/Scripts/query.sidebar.js",
+                            "/Scripts/query.tablehelpers.js"
+                        }
+                    },
+                    {
                         "jquery", new AssetCollection("http://ajax.microsoft.com/ajax/jquery/jquery-1.7.1.min.js")
                         {
                             "/Scripts/jquery-1.7.1.js"
